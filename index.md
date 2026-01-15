@@ -1,4 +1,3 @@
-<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -7,7 +6,7 @@
   </head>
   <body>
     <h1>Welcome to My Website</h1>
-    <p>This site is my resume</p>
+    <p>This site is link to my resume</p>
     <p><a href="Resume/index.md">View my resume</a></p>
   </body>
 </html>
