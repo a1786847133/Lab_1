@@ -3,7 +3,7 @@ title: Resume | Jiaxuan Su
 ---
 
 # Jiaxuan Su
-- Phone: 2065541080
+- Phone: +1 (206) 554-1080
 - Email: sujiaxuan_zz@163.com
 
 > UW student (Geography, Data Science Option) interested in data analysis, machine learning, and building practical data-driven tools.
@@ -21,12 +21,13 @@ B.A. in Geography (Data Science Option), Sep 2022 – Jun 2026 (Expected)
 - Built a multi-thread crawler (Java) and processed text data (Python); used MySQL for storage.
 
 ## Links
-- GitHub: https://github.com/a1786847133
+- GitHub: [https://github.com/a1786847133](https://github.com/a1786847133)
 
 ## Image
 ![Cherry Blossom Aerial](../assets/Cherry-Blossom-Aerial-scaled.jpg)
 
-## A Short List (Markdown requirement)
+## A Short List
 - Data analysis
 - Visualization
 - Web tools
+
