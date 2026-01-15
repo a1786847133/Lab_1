@@ -24,7 +24,7 @@ B.A. in Geography (Data Science Option), Sep 2022 – Jun 2026 (Expected)
 - GitHub: https://github.com/a1786847133
 
 ## Image
-![Headshot placeholder](https://via.placeholder.com/240)
+![Cherry Blossom Aerial](../assets/Cherry-Blossom-Aerial-scaled.jpg)
 
 ## A Short List (Markdown requirement)
 - Data analysis
