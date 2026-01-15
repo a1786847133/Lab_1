@@ -3,14 +3,93 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jiaxuan Su | Home</title>
+    <title>Jiaxuan Su | Portfolio</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; line-height: 1.6; }
+      header { padding: 18px 22px; border-bottom: 1px solid #ddd; position: sticky; top: 0; background: #fff; }
+      nav a { margin-right: 14px; text-decoration: none; }
+      main { max-width: 980px; margin: 0 auto; padding: 28px 22px; }
+      .muted { color:#666; }
+      .tag { display: inline-block; padding: 3px 10px; border: 1px solid #ddd; border-radius: 999px; margin: 6px 6px 0 0; font-size: 14px; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-top: 10px; }
+      .card { border: 1px solid #ddd; border-radius: 12px; padding: 14px; }
+      .card h3 { margin: 0 0 6px; }
+      .btn { display:inline-block; padding: 8px 12px; border: 1px solid #222; border-radius: 10px; text-decoration: none; }
+      footer { border-top: 1px solid #ddd; padding: 18px 22px; color: #555; }
+      .small { font-size: 14px; }
+    </style>
   </head>
-  <body>
-    <h1>Welcome</h1>
-    <p>This is my GitHub Pages website for Lab 1. Incluind my personal resume.</p>
 
-    <p>
-        <a href="resume/">View my resume</a>
-    </p>
+  <body>
+    <header>
+      <strong>Jiaxuan Su</strong>
+      <nav class="small" style="display:inline; margin-left:16px;">
+        <a href="./">Home</a>
+        <a href="resume/">Resume</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1 style="margin:0 0 6px;">Personal Website</h1>
+        <p class="muted" style="margin:0 0 10px;">
+          This website includes my resume and a previous project. Built for Lab 1.
+        </p>
+
+        <p style="margin: 10px 0 0;">
+          <a class="btn" href="resume/">View my resume</a>
+          <a class="btn" href="#projects" style="margin-left:8px;">View my project</a>
+        </p>
+
+        <div style="margin-top:10px;">
+          <span class="tag">Resume</span>
+          <span class="tag">Web</span>
+          <span class="tag">Data Visualization</span>
+        </div>
+      </section>
+
+      <section id="projects" style="margin-top:26px;">
+        <h2 style="margin-bottom:6px;">Project</h2>
+        <p class="muted" style="margin-top:0;">
+          One selected project from my previous work:
+        </p>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Choropleth Web Map — Lab 4</h3>
+            <p class="muted small">
+              An interactive choropleth web map project (HTML/JS), including a population density example and a COVID-19 case rate map.
+            </p>
+            <p class="small">
+              <a href="https://github.com/a1786847133/Lab_4" target="_blank" rel="noopener">GitHub Repo</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top:26px;">
+        <h2 style="margin-bottom:6px;">About</h2>
+        <ul>
+          <li>UW student interested in data analysis and practical web tools.</li>
+          <li>This site is a simple portfolio: resume + project links.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:26px;">
+        <h2 style="margin-bottom:6px;">Contact</h2>
+        <ul>
+          <li>GitHub: <a href="https://github.com/a1786847133" target="_blank" rel="noopener">https://github.com/a1786847133</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="small">
+      <div>© <span id="y"></span> Jiaxuan Su · a1786847133</div>
+    </footer>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
